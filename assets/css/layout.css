@@ -1,0 +1,1020 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+#nav.tablet {
+	display: none;
+}
+.sub-menu-bar {
+	background: none repeat scroll 0 0 #F6F6F6;
+	border-top: 2px solid #B2B2B2;
+	display: none;
+	height: 27px;
+	margin-top: 18px;
+}
+.sub-menu-bar ul {
+	height: 27px;
+	margin: 0 auto;
+	padding: 0 0 0 20%;
+	width: 96%;
+}
+.sub-menu-bar ul li {
+	float: left;
+	list-style: none outside none;
+	margin-right: 56px;
+	padding-top: 2px;
+}
+.sub-menu-bar ul li a {
+	color: #0074CE;
+	font-weight: bold;
+	text-decoration: none;
+}
+.sub-menu-bar ul li.current a {
+	color: #cc0000;
+}
+.sub-menu-bar ul.second {
+	padding: 0 0 0 6%;
+}
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 962px) {
+.yahooWrap {
+	background: url("../img/yahoo_bg.jpg") repeat-x scroll center top / 150% auto #32007B;
+}
+.bingWrap {
+	background: url("../img/bing_bg.jpg") no-repeat scroll center top / 150% auto #212121;
+	padding-top: 23px;
+}
+#packages.payment .pricesBox {
+	width: 100%;
+}
+#packages.payment .pricesBox .starter, #packages.payment .pricesBox .small, #packages.payment .pricesBox .premium {
+	width: 100%;
+}
+#nav {
+	right: 4px;
+}
+#nav a {
+	padding: 8px;
+}
+#container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+#act-boxes > div h4 {
+	font-size: 12px;
+}
+#hero {
+	width: 96%;
+}
+.cont-w {
+	margin: 0 auto;
+	position: relative;
+	width: 96%;
+}
+footer > div > div {
+	width: 30% !important;
+}
+footer > div > div:nth-of-type(2) {
+	float: left !important;
+}
+#nav a {
+	font-size: 0.8rem !important;
+}
+#nav.main {
+	display: none;
+}
+#nav.tablet {
+	display: block;
+}
+.sub-menu-bar {
+	display: block;
+}
+#post-head {
+	height: 0;
+}
+.textBoxPackage {
+	width: 584px;
+}
+.parentUl li ul li {
+	margin-bottom: 4px !important;
+}
+.ui-tabs-panel.ui-widget-content.ui-corner-bottom {
+	width: 68% !important;
+}
+.shade.first h4 {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.shade.second h4 {
+	margin-bottom: 21px;
+	margin-top: 2px;
+}
+.shade.third h4 {
+	margin-bottom: 35px;
+	margin-top: 18px;
+}
+.sub-menu-bar ul li {
+	float: left;
+	list-style: none outside none;
+	margin-right: 33px;
+	padding-top: 2px;
+}
+.sub-menu-bar ul li a {
+	color: #0074CE;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.left2 {
+	margin-left: 0;
+}
+.ui-tabs-panel.ui-widget-content.ui-corner-bottom {
+	width: 437px !important;
+}
+#packages.cont-w {
+	margin-bottom: 21px;
+	padding-top: 41px;
+}
+.ui-tabs-panel img {
+	padding-left: 5px !important;
+	width: 100%;
+}
+#tabs-9 img {
+	padding-left: 5px !important;
+	width: 94px;
+}
+#tabs-9 .title {
+	font-size: 24px !important;
+}
+.top5Wrap {
+	float: left;
+	line-height: 0;
+	width: 336px;
+}
+.top5Wrap p {
+	line-height: 18px !important;
+	margin: 0 !important;
+	margin-bottom: 9px;
+}
+.top5Wrap .name {
+	margin-top: 6px;
+}
+#tabs-7 .title {
+	margin-top: 42px !important;
+}
+#tabs-12 img {
+	margin-bottom: 76px !important;
+}
+#tabs-8 img {
+	height: 346px !important;
+}
+#tabs-5 img {
+	height: 375px !important;
+}
+#tabs-4 img {
+	height: 415px !important;
+}
+#tabs-3 img {
+	height: 431px !important;
+	margin-bottom: 0 !important;
+}
+#tabs-2 img {
+	height: 479px;
+}
+#tabs-1 p {
+	font-size: 14px;
+	line-height: 17px !important;
+	margin-bottom: 13px;
+}
+#tabs-1 img {
+	height: 154px;
+}
+.textBoxPackage {
+	width: 397px !important;
+	padding-bottom: 12px;
+}
+.textBoxPackage p {
+	font-size: 15px;
+	line-height: 30px !important;
+}
+.parentUl {
+	padding-left: 15px !important;
+}
+.parentUl li.parent > a {
+	font-size: 14px !important;
+}
+.parentUl li ul li a {
+	font-size: 13px !important;
+}
+.repWrap .imageBox {
+	width: 100% !important;
+}
+#reporting h2 {
+	margin-bottom: 2px !important;
+	margin-top: 32px !important;
+}
+#grants {
+	background-size: 100% auto !important;
+	padding-top: 223px !important;
+}
+.reputationWrap .cont-w {
+	background: url("../img/reputation.jpg") no-repeat scroll 373px 52px / 48% auto rgba(0, 0, 0, 0) !important;
+}
+#contact {
+	background: url("../img/contact_woman.jpg") no-repeat scroll 304px 177px / 50% auto rgba(0, 0, 0, 0);
+}
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.popup > div {
+	left: 63%;
+	width: 400px;
+}
+input[type="text"] {
+	width: 98% !important;
+}
+form {
+	width: 100% !important;
+}
+td font {
+	margin-right: 56px !important;
+}
+#nav {
+	display: none;
+}
+#hero {
+	width: 96%;
+}
+header .menu {
+	display: block !important;
+	position: relative;
+	z-index: 99999;
+}
+.cont-w {
+	width: 96% !important;
+}
+#main-content {
+	padding: 0 !important;
+	width: 96%;
+}
+/* Clearfix */
+.clearfix:before,  .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+ *zoom: 1;
+}
+/* Basic Styles */
+.menu ul li.parent {
+	position: relative;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.submenu {
+	background: none repeat scroll 0 0 #626262;
+	display: none;
+	height: auto;
+	position: relative;
+	width: 100%;
+	z-index: 99999;
+}
+.submenu li:hover {
+	background: none repeat scroll 0 0 #117CCD;
+}
+nav li {
+	background: none repeat scroll 0 0 #014980;
+	border-bottom: 1px solid #043A66;
+	clear: both;
+	display: inline-block;
+	float: none;
+	height: 42px;
+	width: 100%;
+}
+nav a {
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #283744;
+	width: 100%;
+}
+nav li a {
+	border-right: 1px solid #576979;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #117CCD;
+}
+nav {
+	border-bottom: 0;
+}
+nav ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+nav a#pull {
+	display: block;
+	background-color: #117CCD;
+	width: 100%;
+	position: relative;
+}
+nav a#pull:after {
+	content: "";
+	background: url('../img/nav-icon.png') no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+.yahooWrap {
+	background: url("../img/yahoo_bg.jpg") repeat-x scroll center top / 150% auto #32007B;
+}
+.bingWrap {
+	background: url("../img/bing_bg.jpg") no-repeat scroll center top / 150% auto #212121;
+	padding-top: 23px;
+}
+.yahooWrap p {
+	width: 71% !important;
+}
+#login {
+	right: 0 !important;
+	width: 74%;
+}
+#login li:last-of-type {
+	float: right;
+}
+#container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+#main-content {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 95%;
+}
+.cont-w {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+}
+.pricesBox {
+	width: 100%;
+}
+.pricesBox .starter, .pricesBox .small, .pricesBox .premium {
+	width: 100%;
+}
+#packages.cont-w .pricesBox a.getstarted {
+	left: 33%;
+}
+.textBoxPackage {
+	border: 1px solid #ACACAC;
+	clear: both;
+	width: 100% !important;
+}
+footer > div > div {
+	width: 30% !important;
+}
+footer > div > div:nth-of-type(2) {
+	float: left !important;
+}
+#act-boxes > div h4 {
+	font-size: 13px;
+}
+.shade.first h4 {
+	margin-bottom: 6px;
+	margin-top: 0;
+}
+.shade.second h4 {
+	margin-bottom: 23px;
+	margin-top: 3px;
+}
+.shade.third h4 {
+	margin-bottom: 18px;
+	margin-top: 15px;
+}
+#act-boxes > div a {
+	font-size: 12px;
+}
+#hero {
+	background: url("../img/banner.jpg") no-repeat scroll -124px 0 #FFFFFF;
+}
+#hero > div {
+	right: 1%;
+	top: 63px;
+}
+#hero > div > span {
+	font-size: 29px !important;
+}
+.menu {
+	right: 0px;
+}
+ul.parentUl {
+	padding-left: 36px !important;
+}
+.repWrap .imageBox {
+	width: 100% !important;
+}
+.repWrap .imageBox img {
+	display: inline;
+	max-width: 100%;
+}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+.yahooWrap {
+	background: url("../img/yahoo_bg.jpg") repeat-x scroll center top / 150% auto #32007B;
+}
+.bingWrap {
+	background: url("../img/bing_bg.jpg") no-repeat scroll center top / 150% auto #212121;
+	padding-top: 23px;
+}
+.yahooWrap p {
+	width: 71% !important;
+}
+#login {
+	left: 0 !important;
+	width: 100%;
+}
+#login li:last-of-type {
+	float: right;
+}
+.popup > div {
+	left: 77%;
+	width: 310px;
+}
+.wrapForm {
+	margin: 0 auto;
+	width: 299px;
+}
+.pricesBox {
+	width: 100%;
+}
+footer > div > div {
+	clear: both;
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+.pricesBox .starter, .pricesBox .small, .pricesBox .premium {
+	width: 100%;
+}
+#packages.cont-w .pricesBox a.getstarted {
+	left: 20%;
+}
+.textBoxPackage {
+	border: 1px solid #ACACAC;
+	clear: both;
+	width: 100% !important;
+}
+.parentUl li.parent > a {
+	font-size: 14px !important;
+	font-weight: bold;
+}
+.parentUl li ul li a {
+	font-size: 14px !important;
+}
+.parentUl {
+	margin-top: 0;
+	padding-left: 36px !important;
+}
+.repWrap .imageBox {
+	width: 100% !important;
+}
+.repWrap .imageBox img {
+	display: inline;
+	max-width: 100%;
+}
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 601px) {
+.yahooWrap {
+	background: url("../img/yahoo_bg.jpg") repeat-x scroll center top / 150% auto #32007B;
+}
+.bingWrap {
+	background: url("../img/bing_bg.jpg") no-repeat scroll center top / 150% auto #212121;
+	padding-top: 23px;
+}
+.yahooWrap p {
+	width: 71% !important;
+}
+#login {
+	left: inherit !important;
+	right: 0 !important;
+	width: 100%;
+	top: 1px;
+}
+#container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+#main-content {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 95%;
+}
+.cont-w {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+}
+footer > div > div {
+	width: 30% !important;
+}
+footer > div > div:nth-of-type(2) {
+	float: left !important;
+}
+#nav {
+	display: none;
+}
+header .menu {
+	display: block !important;
+	position: relative;
+	z-index: 99999;
+}
+/* Clearfix */
+.clearfix:before,  .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+ *zoom: 1;
+}
+/* Basic Styles */
+.menu ul li.parent {
+	position: relative;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.submenu {
+	background: none repeat scroll 0 0 #626262;
+	display: none;
+	height: auto;
+	position: relative;
+	width: 100%;
+	z-index: 99999;
+}
+.submenu li:hover {
+	background: none repeat scroll 0 0 #117CCD;
+}
+nav li {
+	background: none repeat scroll 0 0 #014980;
+	border-bottom: 1px solid #043A66;
+	clear: both;
+	display: inline-block;
+	float: none;
+	height: 42px;
+	width: 100%;
+}
+nav a {
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #283744;
+	width: 100%;
+}
+nav li a {
+	border-right: 1px solid #576979;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #117CCD;
+}
+nav {
+	border-bottom: 0;
+}
+nav ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+nav a#pull {
+	display: block;
+	background-color: #117CCD;
+	width: 100%;
+	position: relative;
+}
+nav a#pull:after {
+	content: "";
+	background: url('../img/nav-icon.png') no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+}
+ @media only screen and (max-width : 542px) {
+#main-content .subject_thumb img {
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 10px;
+	width: 100%;
+}
+.subject_txt {
+	float: none !important;
+	width: 100%;
+}
+.subject_thumb{float: left;
+    width: 100%;}
+}
+@media only screen and (max-width : 711px) {
+#social {
+	margin: 15px 0;
+}
+#social a {
+	float: left;
+	height: auto;
+	margin-bottom: 12px;
+	padding: 9px;
+}
+#social a img {
+	height: 22px;
+	width: 22px;
+}
+.subject_thumb{float: left;
+    width: 100%;}
+}
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+.googleWrap .logo {
+	background: url("../img/google_logo.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+	height: 138px;
+	padding-bottom: 0 !important;
+	width: 348px;
+}
+.googleWrap .cont-w {
+	background: url("../img/google_bg.png") no-repeat scroll 133px 0 rgba(0, 0, 0, 0);
+	height: 1456px;
+	padding-bottom: 0 !important;
+	padding-top: 30px;
+}
+#login {
+	left: 32px;
+	right: inherit;
+	top: 1px;
+}
+#hero {
+	background:none;
+	height:243px;
+}
+.subject_thumb {
+	float: left;
+	width: 100%;
+}
+#hero > div {
+	right: -7%;
+	
+}
+#hero > div > span {
+	font-size: 29px !important;
+}
+.menu {
+	right: 0px;
+}
+#act-boxes {
+	height: 626px !important;
+}
+#container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+#main-content {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 95%;
+}
+.cont-w {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+}
+footer > div > div {
+	width: 100% !important;
+}
+footer > div > div:nth-of-type(2) {
+	float: left !important;
+}
+#nav {
+	display: none;
+}
+header .menu {
+	display: block !important;
+	position: relative;
+	z-index: 99999;
+}
+.menu {
+	width: 54% !important;
+}
+/* Clearfix */
+.clearfix:before,  .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+ *zoom: 1;
+}
+/* Basic Styles */
+.menu ul li.parent {
+	position: relative;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.learnmore {
+	background: none repeat scroll 0 0 #72B91B;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+	height: 15px;
+	line-height: 13px;
+	padding: 6px;
+	position: absolute;
+	right: 14px;
+	text-transform: uppercase;
+	width: 91px;
+}
+#main-content > div {
+	margin-bottom: 10px;
+	margin-top: 50px;
+	padding: 10px;
+}
+.submenu {
+	background: none repeat scroll 0 0 #626262;
+	display: none;
+	height: auto;
+	position: relative;
+	width: 100%;
+	z-index: 99999;
+}
+.submenu li:hover {
+	background: none repeat scroll 0 0 #117CCD;
+}
+nav li {
+	background: none repeat scroll 0 0 #014980;
+	border-bottom: 1px solid #043A66;
+	clear: both;
+	display: inline-block;
+	float: none;
+	height: 42px;
+	width: 100%;
+}
+nav a {
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #283744;
+	width: 100%;
+}
+nav li a {
+	border-right: 1px solid #576979;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #117CCD;
+}
+nav {
+	border-bottom: 0;
+}
+nav ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+nav a#pull {
+	display: block;
+	background-color: #117CCD;
+	width: 100%;
+	position: relative;
+}
+nav a#pull:after {
+	content: "";
+	background: url('../img/nav-icon.png') no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+#container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+#main-content {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 95%;
+}
+.cont-w {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+}
+footer > div > div {
+	
+}
+footer > div > div:nth-of-type(2) {
+	float: left !important;
+}
+#nav {
+	display: none;
+}
+header .menu {
+	display: block !important;
+	position: relative;
+	z-index: 99999;
+}
+.menu {
+	width: 61% !important;
+}
+/* Clearfix */
+.clearfix:before,  .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+ *zoom: 1;
+}
+/* Basic Styles */
+.menu ul li.parent {
+	position: relative;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.submenu {
+	background: none repeat scroll 0 0 #626262;
+	display: none;
+	height: auto;
+	position: relative;
+	width: 100%;
+	z-index: 99999;
+}
+.submenu li:hover {
+	background: none repeat scroll 0 0 #117CCD;
+}
+nav li {
+	background: none repeat scroll 0 0 #014980;
+	border-bottom: 1px solid #043A66;
+	clear: both;
+	display: inline-block;
+	float: none;
+	height: 42px;
+	width: 100%;
+}
+nav a {
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #283744;
+	width: 100%;
+}
+nav li a {
+	border-right: 1px solid #576979;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #117CCD;
+}
+nav {
+	border-bottom: 0;
+}
+nav ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+nav a#pull {
+	display: block;
+	background-color: #117CCD;
+	width: 100%;
+	position: relative;
+}
+nav a#pull:after {
+	content: "";
+	background: url('../img/nav-icon.png') no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+
+
+}
+
