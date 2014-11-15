@@ -8,8 +8,11 @@ SEO ranking evaluation tool (Google, Alexa, Yahoo)
  this app requires below libraries.
 
  pear install HTTP
+ 
  pear install PHPThumb
+ 
  pear install HTTP_Request2
+ 
  - Compose
  composer require seostats
 
